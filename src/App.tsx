@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <div>
-      {optimalGraph && <GraphView graph={optimalGraph} />}
+      {optimalGraph && <GraphView graph={optimalGraph} similarityGraph={graphData}/>}
     </div>
   )
 }

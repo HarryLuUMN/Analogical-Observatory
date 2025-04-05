@@ -10,3 +10,13 @@ body,
   height: 100%;
   margin: 0;
 }
+
+.bar-scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.bar-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
