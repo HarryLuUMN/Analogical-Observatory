@@ -84,7 +84,7 @@ export default function GraphViewer({ graph, similarityGraph }: Props) {
     const getDeepest = (ids: string[]) => ids.sort((a, b) => parseInt(b.split('-')[1]) - parseInt(a.split('-')[1]))[0];
   
     const edgeSet = new Set<string>();
-    const reactFlowEdges: Edge[] = graph.edges.map((e, i) => {
+    const reactFlowEdges: Edge[] = graph.edges.map((e:any) => {
       const sourceIds = nodeIdLookup.get(e.source) || [];
       const targetIds = nodeIdLookup.get(e.target) || [];
       if (sourceIds.length === 0 || targetIds.length === 0) return null;
