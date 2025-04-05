@@ -1,6 +1,7 @@
 # Analogical Observatory: A Combinatorial Semantic Trees Visualization with Analogical Deduction
 
-Developer: Yilin(Harry) Lu
+- Developer: Yilin(Harry) Lu
+- Deployed Website: https://analogical-observatory.vercel.app/ 
 
 ## Introduction
 
