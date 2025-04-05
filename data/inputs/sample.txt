@@ -1,0 +1,9 @@
+king
+land
+queen
+man
+women
+people
+country
+nation
+religion
